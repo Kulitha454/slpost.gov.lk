@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page_title_info">Information & Resources | Sri Lanka Post</title>
+  <meta name="description" content="Official Information & Public Resources portal of Sri Lanka Post. Search 5-digit postal codes, view postage tariffs, download administrative forms, read safety regulations, and access RTI information.">
+
+  <!-- Google Fonts: Noto Sans, Noto Sans Sinhala, Noto Sans Tamil with font-display: swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wght@400;500;700&family=Noto+Sans+Tamil:wght@400;500;700&family=Noto+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link" data-i18n="skip_to_content">Skip to main content</a>
+
+  <!-- 1. STICKY RED NAVIGATION BAR -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <!-- Left: Logo Group (Transparent Backgrounds) -->
+      <a href="index.html" class="nav-brand-group" aria-label="Sri Lanka Post Home">
+        <span class="logo-plate">
+          <img src="images/government_logo.png" alt="Emblem of Sri Lanka" class="logo-img" width="348" height="348">
+        </span>
+        <span class="logo-plate">
+          <img src="images/post_logo.png" alt="Sri Lanka Post Logo" class="logo-img" width="993" height="516">
+        </span>
+      </a>
+
+      <!-- Center Links & Mobile Drawer -->
+      <nav class="nav-links-menu" id="nav-links-menu" aria-label="Main Navigation">
+        <!-- Drawer Top Row (Visible only on mobile/tablet < 1100px) -->
+        <div class="drawer-tools-row">
+          <!-- Language Segmented Control (Mobile) -->
+          <div class="lang-switcher" role="group" aria-label="Language selection">
+            <button type="button" class="lang-btn active" data-lang="en" aria-current="true">English</button>
+            <button type="button" class="lang-btn" data-lang="si">සිංහල</button>
+            <button type="button" class="lang-btn" data-lang="ta">தமிழ்</button>
+          </div>
+          <!-- Action Buttons (Mobile) -->
+          <div style="display: flex; gap: 8px;">
+            <button type="button" class="nav-icon-btn" id="drawer-notification-btn" aria-label="Enable notifications" title="Enable notifications">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
+            </button>
+            <button type="button" class="nav-icon-btn" id="drawer-theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+              <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+              <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <ul class="nav-links-menu" style="display: contents;">
+          <!-- Home -->
+          <li class="nav-item">
+            <a href="index.html" class="nav-link" data-i18n="nav_home">Home</a>
+          </li>
+
+          <!-- About Us Dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="about.html" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_about">About Us</span>
+              <svg class="dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="about.html#vision-mission" class="dropdown-link" role="menuitem" data-i18n="nav_about_vision">Vision and Mission</a>
+              <a href="about.html#insights" class="dropdown-link" role="menuitem" data-i18n="nav_about_insights">Our Insights</a>
+              <a href="about.html#major-functions" class="dropdown-link" role="menuitem" data-i18n="nav_about_functions">Major Functions</a>
+            </div>
+          </li>
+
+          <!-- Services Dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="services.html" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_services">Services</span>
+              <svg class="dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="services.html#normal-post" class="dropdown-link" role="menuitem" data-i18n="srv1_title">Normal Post (Domestic Mail)</a>
+              <a href="services.html#international-post" class="dropdown-link" role="menuitem" data-i18n="srv2_title">International Post</a>
+              <a href="services.html#money-transfer" class="dropdown-link" role="menuitem" data-i18n="srv3_title">Money Transfer</a>
+              <a href="services.html#ems-speed-post" class="dropdown-link" role="menuitem" data-i18n="srv4_title">EMS Speed Post</a>
+              <a href="services.html#cash-on-delivery" class="dropdown-link" role="menuitem" data-i18n="srv5_title">Cash on Delivery</a>
+              <a href="services.html" class="dropdown-link" role="menuitem" style="font-weight: 700; color: var(--color-red);" data-i18n="hero1_btn_services">All Services →</a>
+            </div>
+          </li>
+
+          <!-- Information (Current Page) -->
+          <li class="nav-item current-page">
+            <a href="information.html" class="nav-link active" aria-current="page" data-i18n="nav_info">Information</a>
+          </li>
+
+          <!-- Media Gallery -->
+          <li class="nav-item">
+            <a href="coming-soon.html" class="nav-link" data-i18n="nav_media">Media Gallery</a>
+          </li>
+
+          <!-- Notices Dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="notices.html" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_notices">Notices</span>
+              <svg class="dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="notices.html#public" class="dropdown-link" role="menuitem" data-i18n="nav_notices_public">Public Notices</a>
+              <a href="notices.html#procurement" class="dropdown-link" role="menuitem" data-i18n="nav_notices_procurement">Procurement</a>
+              <a href="notices.html#vacancies" class="dropdown-link" role="menuitem" data-i18n="nav_notices_vacancies">Vacancies</a>
+              <a href="notices.html#reports" class="dropdown-link" role="menuitem" data-i18n="nav_notices_reports">Performance Reports</a>
+            </div>
+          </li>
+
+          <!-- Contact Us -->
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right Zone (Desktop Tools) -->
+      <div class="nav-tools-group">
+        <!-- Language Switcher Segmented Control -->
+        <div class="lang-switcher" role="group" aria-label="Language selection">
+          <button type="button" class="lang-btn active" data-lang="en" aria-current="true">English</button>
+          <button type="button" class="lang-btn" data-lang="si">සිංහල</button>
+          <button type="button" class="lang-btn" data-lang="ta">தமிழ்</button>
+        </div>
+
+        <!-- Notification Bell Button -->
+        <button type="button" class="nav-icon-btn" id="notification-btn" aria-label="Enable notifications" title="Enable notifications">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
+        </button>
+
+        <!-- Theme Toggle (Moon / Sun) -->
+        <button type="button" class="nav-icon-btn" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+        </button>
+      </div>
+
+      <!-- Hamburger Button (Mobile / Tablet) -->
+      <button type="button" class="nav-hamburger-btn" id="nav-hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links-menu">
+        <svg class="hamburger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. NOTIFICATION BAR (Cricket Scoreboard Roll) -->
+  <aside class="notification-bar" aria-label="Official announcements and alerts">
+    <div class="container notification-container">
+      <div class="notif-badge">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span data-i18n="nav_alerts_label">Alerts</span>
+      </div>
+
+      <div class="notif-viewport" id="notif-viewport" aria-live="polite">
+        <div class="notif-item is-current" role="status">
+          <a href="coming-soon.html" class="notif-link">Postal services to Israel, Qatar, Saudi Arabia and Lebanon are temporarily suspended.</a>
+        </div>
+      </div>
+
+      <div class="notif-controls">
+        <span class="notif-counter" id="notif-counter">1 / 4</span>
+        <button type="button" class="notif-pause-btn" id="notif-pause-btn" aria-label="Pause alerts ticker" title="Pause alerts ticker">
+          <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+          <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true" style="display: none;"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- BREADCRUMB TRAIL -->
+  <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+    <div class="container">
+      <ol class="breadcrumb-list">
+        <li class="breadcrumb-item">
+          <a href="index.html" data-i18n="breadcrumb_home">Home</a>
+        </li>
+        <li class="breadcrumb-separator" aria-hidden="true">&gt;</li>
+        <li class="breadcrumb-item active" aria-current="page" data-i18n="breadcrumb_info">
+          Information
+        </li>
+      </ol>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- 0. PAGE BANNER & FAST SEARCH -->
+    <section class="info-banner" aria-labelledby="info-banner-title">
+      <div class="container">
+        <div class="info-banner-inner">
+          <div class="info-badge-row">
+            <span class="info-stamp-badge">
+              <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+              <span>Public Information Portal</span>
+            </span>
+            <span class="info-gazette-tag">Official Gazette Standards</span>
+          </div>
+
+          <h1 class="info-banner-title" id="info-banner-title" data-i18n="info_banner_title">Information &amp; Public Resources</h1>
+          <p class="info-banner-sub" data-i18n="info_banner_sub">Access official postal tariffs, postcodes directory, administrative forms, safety regulations, and Right to Information (RTI) records.</p>
+
+          <!-- Interactive Fast Filter / Search Box -->
+          <div class="info-search-wrapper" role="search">
+            <div class="info-search-bar">
+              <svg class="info-search-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+              <input type="text" id="info-global-search" class="info-search-input" placeholder="Search postal codes, forms, rates, or regulations..." data-i18n-attr="placeholder:info_search_placeholder" aria-label="Search postal resources and directory">
+              <button type="button" class="info-search-clear-btn" id="info-search-clear" aria-label="Clear search query" style="display: none;">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Section Jump Pills -->
+          <div class="banner-pills-row info-pills-row" role="navigation" aria-label="Jump to page resources">
+            <a href="#postal-codes" class="banner-pill-link" data-i18n="info_pill_codes">Postal Codes</a>
+            <a href="#rates" class="banner-pill-link" data-i18n="info_pill_rates">Rates &amp; Tariffs</a>
+            <a href="#forms" class="banner-pill-link" data-i18n="info_pill_forms">Download Forms</a>
+            <a href="#prohibited-items" class="banner-pill-link" data-i18n="info_pill_prohibited">Prohibited Articles</a>
+            <a href="#rti" class="banner-pill-link" data-i18n="info_pill_rti">Right to Information</a>
+            <a href="#standards" class="banner-pill-link" data-i18n="info_pill_standards">Delivery Standards</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1. QUICK REFERENCE RESOURCE HUB (Modern Bento Glass Cards) -->
+    <section class="info-hub-section" id="resource-hub" aria-labelledby="hub-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <h2 class="section-title" id="hub-heading" data-i18n="info_hub_heading">Postal Resource Hub</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_hub_intro">Select a department resource to explore official guidelines, tools, and downloadable publications.</p>
+        </div>
+
+        <div class="info-bento-grid">
+          <!-- Card 1: Postal Codes -->
+          <article class="info-bento-card bento-card-featured">
+            <div class="bento-card-badge">Zoning System</div>
+            <div class="bento-card-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+            </div>
+            <div class="bento-card-body">
+              <h3 class="bento-card-title" data-i18n="info_card_codes_title">Postal Codes Directory</h3>
+              <p class="bento-card-desc" data-i18n="info_card_codes_desc">Look up 5-digit postal zoning codes across all 9 provinces and 25 administrative districts.</p>
+              <div class="bento-card-footer">
+                <span class="bento-meta-chip">4,138 Post Offices</span>
+                <a href="#postal-codes" class="bento-action-btn" data-i18n="info_card_codes_btn">Find Postal Code →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Rates & Tariffs -->
+          <article class="info-bento-card">
+            <div class="bento-card-badge">Tariff Schedule</div>
+            <div class="bento-card-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+            </div>
+            <div class="bento-card-body">
+              <h3 class="bento-card-title" data-i18n="info_card_rates_title">Postage Rates &amp; Tariffs</h3>
+              <p class="bento-card-desc" data-i18n="info_card_rates_desc">Current official price schedules for domestic letters, overseas airmail, and EMS courier items.</p>
+              <div class="bento-card-footer">
+                <span class="bento-meta-chip">Revised 2024</span>
+                <a href="#rates" class="bento-action-btn" data-i18n="info_card_rates_btn">View Rate Tables →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Downloadable Forms -->
+          <article class="info-bento-card">
+            <div class="bento-card-badge">PDF Library</div>
+            <div class="bento-card-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+            </div>
+            <div class="bento-card-body">
+              <h3 class="bento-card-title" data-i18n="info_card_forms_title">Downloadable Forms</h3>
+              <p class="bento-card-desc" data-i18n="info_card_forms_desc">Official application forms for private post boxes, postal ID cards, and international customs.</p>
+              <div class="bento-card-footer">
+                <span class="bento-meta-chip">8 Forms Ready</span>
+                <a href="#forms" class="bento-action-btn" data-i18n="info_card_forms_btn">Browse Forms →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Prohibited Articles -->
+          <article class="info-bento-card">
+            <div class="bento-card-badge">Safety &amp; Compliance</div>
+            <div class="bento-card-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-1 6h2v6h-2V7zm1 10.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/></svg>
+            </div>
+            <div class="bento-card-body">
+              <h3 class="bento-card-title" data-i18n="info_card_prohibited_title">Prohibited &amp; Restricted</h3>
+              <p class="bento-card-desc" data-i18n="info_card_prohibited_desc">Essential mail safety guidelines, dangerous goods classifications, and packaging limits.</p>
+              <div class="bento-card-footer">
+                <span class="bento-meta-chip">UPU Standards</span>
+                <a href="#prohibited-items" class="bento-action-btn" data-i18n="info_card_prohibited_btn">Safety Guidelines →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: RTI -->
+          <article class="info-bento-card">
+            <div class="bento-card-badge">Citizen Transparency</div>
+            <div class="bento-card-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            </div>
+            <div class="bento-card-body">
+              <h3 class="bento-card-title" data-i18n="info_card_rti_title">Right to Information (RTI)</h3>
+              <p class="bento-card-desc" data-i18n="info_card_rti_desc">Transparency portal under Act No. 12 of 2016 with designated officers and RTI 01 request formats.</p>
+              <div class="bento-card-footer">
+                <span class="bento-meta-chip">14-Day Response</span>
+                <a href="#rti" class="bento-action-btn" data-i18n="info_card_rti_btn">RTI Information →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Delivery Charter -->
+          <article class="info-bento-card">
+            <div class="bento-card-badge">Service Standards</div>
+            <div class="bento-card-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zm-.5 1.5l1.96 2.5H17V9.5h2.5zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-1.5c0 .83-.67 1.5-1.5 1.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5 1.5.67 1.5 1.5z"/></svg>
+            </div>
+            <div class="bento-card-body">
+              <h3 class="bento-card-title" data-i18n="info_card_charter_title">Citizen Delivery Charter</h3>
+              <p class="bento-card-desc" data-i18n="info_card_charter_desc">Island-wide delivery timelines, tracking commitments, and grievance escalation via hotline 1950.</p>
+              <div class="bento-card-footer">
+                <span class="bento-meta-chip">Hotline 1950</span>
+                <a href="#standards" class="bento-action-btn" data-i18n="info_card_charter_btn">View Standards →</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. POSTAL CODES DIRECTORY SECTION -->
+    <section class="info-codes-section" id="postal-codes" aria-labelledby="codes-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="section-badge-pill">Island-Wide Directory</div>
+          <h2 class="section-title" id="codes-heading" data-i18n="info_codes_heading">Postal Codes Directory (Postcodes)</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_codes_intro">Sri Lanka Post uses a 5-digit postal zoning system to accelerate automated sorting and eliminate misdirection.</p>
+        </div>
+
+        <!-- Directory Filter Bar -->
+        <div class="codes-filter-box">
+          <div class="codes-search-field">
+            <label for="postcode-search-input" class="codes-search-label" data-i18n="info_codes_search_label">Filter by city, town, district, or code:</label>
+            <div class="codes-input-wrap">
+              <svg class="codes-field-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+              <input type="text" id="postcode-search-input" class="codes-input" placeholder="e.g. Kottawa, Kandy, Galle, 00200..." autocomplete="off">
+              <button type="button" id="postcode-clear-btn" class="codes-clear-btn" aria-label="Clear filter" style="display: none;">&times;</button>
+            </div>
+          </div>
+
+          <!-- Province Quick Filter Pills -->
+          <div class="province-pills-scroll" role="group" aria-label="Filter postcodes by province">
+            <button type="button" class="prov-pill active" data-province="all">All Provinces</button>
+            <button type="button" class="prov-pill" data-province="Western">Western</button>
+            <button type="button" class="prov-pill" data-province="Central">Central</button>
+            <button type="button" class="prov-pill" data-province="Southern">Southern</button>
+            <button type="button" class="prov-pill" data-province="Northern">Northern</button>
+            <button type="button" class="prov-pill" data-province="Eastern">Eastern</button>
+            <button type="button" class="prov-pill" data-province="North Western">North Western</button>
+            <button type="button" class="prov-pill" data-province="North Central">North Central</button>
+            <button type="button" class="prov-pill" data-province="Uva">Uva</button>
+            <button type="button" class="prov-pill" data-province="Sabaragamuwa">Sabaragamuwa</button>
+          </div>
+        </div>
+
+        <!-- Result Stats -->
+        <div class="codes-results-status" id="codes-status-bar" aria-live="polite">
+          Showing <span id="codes-visible-count">36</span> key postal hub locations across Sri Lanka
+        </div>
+
+        <!-- Responsive Interactive Postal Code Table -->
+        <div class="codes-table-card">
+          <div class="table-responsive-wrapper">
+            <table class="codes-table" id="codes-table">
+              <thead>
+                <tr>
+                  <th scope="col" style="width: 140px;" data-i18n="info_codes_th_code">Postal Code</th>
+                  <th scope="col" data-i18n="info_codes_th_office">Post Office / Branch</th>
+                  <th scope="col" data-i18n="info_codes_th_district">District</th>
+                  <th scope="col" data-i18n="info_codes_th_province">Province</th>
+                  <th scope="col" style="width: 110px; text-align: center;">Action</th>
+                </tr>
+              </thead>
+              <tbody id="codes-table-body">
+                <!-- Western Province -->
+                <tr data-province="Western" data-code="00100" data-office="Colombo General Post Office (GPO)" data-district="Colombo">
+                  <td><span class="postcode-badge">00100</span></td>
+                  <td><strong>Colombo General Post Office (GPO)</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="00100" aria-label="Copy code 00100" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="00200" data-office="Kottawa Post Office" data-district="Colombo">
+                  <td><span class="postcode-badge">00200</span></td>
+                  <td><strong>Kottawa</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="00200" aria-label="Copy code 00200" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="00300" data-office="Kollupitiya (Colombo 03)" data-district="Colombo">
+                  <td><span class="postcode-badge">00300</span></td>
+                  <td><strong>Kollupitiya (Colombo 03)</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="00300" aria-label="Copy code 00300" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="10250" data-office="Nugegoda Post Office" data-district="Colombo">
+                  <td><span class="postcode-badge">10250</span></td>
+                  <td><strong>Nugegoda</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="10250" aria-label="Copy code 10250" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="10350" data-office="Dehiwala Post Office" data-district="Colombo">
+                  <td><span class="postcode-badge">10350</span></td>
+                  <td><strong>Dehiwala</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="10350" aria-label="Copy code 10350" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="10370" data-office="Mount Lavinia Post Office" data-district="Colombo">
+                  <td><span class="postcode-badge">10370</span></td>
+                  <td><strong>Mount Lavinia</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="10370" aria-label="Copy code 10370" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="10400" data-office="Moratuwa Post Office" data-district="Colombo">
+                  <td><span class="postcode-badge">10400</span></td>
+                  <td><strong>Moratuwa</strong></td>
+                  <td>Colombo</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="10400" aria-label="Copy code 10400" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="11000" data-office="Gampaha Head Post Office" data-district="Gampaha">
+                  <td><span class="postcode-badge">11000</span></td>
+                  <td><strong>Gampaha Head Post Office</strong></td>
+                  <td>Gampaha</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="11000" aria-label="Copy code 11000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="11500" data-office="Negombo Post Office" data-district="Gampaha">
+                  <td><span class="postcode-badge">11500</span></td>
+                  <td><strong>Negombo</strong></td>
+                  <td>Gampaha</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="11500" aria-label="Copy code 11500" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="12000" data-office="Kalutara Head Post Office" data-district="Kalutara">
+                  <td><span class="postcode-badge">12000</span></td>
+                  <td><strong>Kalutara Head Post Office</strong></td>
+                  <td>Kalutara</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="12000" aria-label="Copy code 12000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Western" data-code="12500" data-office="Panadura Post Office" data-district="Kalutara">
+                  <td><span class="postcode-badge">12500</span></td>
+                  <td><strong>Panadura</strong></td>
+                  <td>Kalutara</td>
+                  <td><span class="province-tag">Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="12500" aria-label="Copy code 12500" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- Central Province -->
+                <tr data-province="Central" data-code="20000" data-office="Kandy General Post Office (GPO)" data-district="Kandy">
+                  <td><span class="postcode-badge">20000</span></td>
+                  <td><strong>Kandy General Post Office (GPO)</strong></td>
+                  <td>Kandy</td>
+                  <td><span class="province-tag">Central</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="20000" aria-label="Copy code 20000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Central" data-code="20400" data-office="Peradeniya Post Office" data-district="Kandy">
+                  <td><span class="postcode-badge">20400</span></td>
+                  <td><strong>Peradeniya</strong></td>
+                  <td>Kandy</td>
+                  <td><span class="province-tag">Central</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="20400" aria-label="Copy code 20400" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Central" data-code="21000" data-office="Matale Head Post Office" data-district="Matale">
+                  <td><span class="postcode-badge">21000</span></td>
+                  <td><strong>Matale Head Post Office</strong></td>
+                  <td>Matale</td>
+                  <td><span class="province-tag">Central</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="21000" aria-label="Copy code 21000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Central" data-code="22200" data-office="Nuwara Eliya Post Office" data-district="Nuwara Eliya">
+                  <td><span class="postcode-badge">22200</span></td>
+                  <td><strong>Nuwara Eliya Post Office</strong></td>
+                  <td>Nuwara Eliya</td>
+                  <td><span class="province-tag">Central</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="22200" aria-label="Copy code 22200" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- Southern Province -->
+                <tr data-province="Southern" data-code="80000" data-office="Galle Head Post Office" data-district="Galle">
+                  <td><span class="postcode-badge">80000</span></td>
+                  <td><strong>Galle Head Post Office</strong></td>
+                  <td>Galle</td>
+                  <td><span class="province-tag">Southern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="80000" aria-label="Copy code 80000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Southern" data-code="80500" data-office="Hikkaduwa Post Office" data-district="Galle">
+                  <td><span class="postcode-badge">80500</span></td>
+                  <td><strong>Hikkaduwa</strong></td>
+                  <td>Galle</td>
+                  <td><span class="province-tag">Southern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="80500" aria-label="Copy code 80500" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Southern" data-code="81000" data-office="Matara Head Post Office" data-district="Matara">
+                  <td><span class="postcode-badge">81000</span></td>
+                  <td><strong>Matara Head Post Office</strong></td>
+                  <td>Matara</td>
+                  <td><span class="province-tag">Southern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="81000" aria-label="Copy code 81000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Southern" data-code="82000" data-office="Hambantota Post Office" data-district="Hambantota">
+                  <td><span class="postcode-badge">82000</span></td>
+                  <td><strong>Hambantota</strong></td>
+                  <td>Hambantota</td>
+                  <td><span class="province-tag">Southern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="82000" aria-label="Copy code 82000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- Northern Province -->
+                <tr data-province="Northern" data-code="40000" data-office="Jaffna Head Post Office" data-district="Jaffna">
+                  <td><span class="postcode-badge">40000</span></td>
+                  <td><strong>Jaffna Head Post Office</strong></td>
+                  <td>Jaffna</td>
+                  <td><span class="province-tag">Northern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="40000" aria-label="Copy code 40000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Northern" data-code="40500" data-office="Chavakachcheri Post Office" data-district="Jaffna">
+                  <td><span class="postcode-badge">40500</span></td>
+                  <td><strong>Chavakachcheri</strong></td>
+                  <td>Jaffna</td>
+                  <td><span class="province-tag">Northern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="40500" aria-label="Copy code 40500" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Northern" data-code="44000" data-office="Kilinochchi Post Office" data-district="Kilinochchi">
+                  <td><span class="postcode-badge">44000</span></td>
+                  <td><strong>Kilinochchi</strong></td>
+                  <td>Kilinochchi</td>
+                  <td><span class="province-tag">Northern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="44000" aria-label="Copy code 44000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Northern" data-code="41000" data-office="Mannar Post Office" data-district="Mannar">
+                  <td><span class="postcode-badge">41000</span></td>
+                  <td><strong>Mannar</strong></td>
+                  <td>Mannar</td>
+                  <td><span class="province-tag">Northern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="41000" aria-label="Copy code 41000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Northern" data-code="43000" data-office="Vavuniya Post Office" data-district="Vavuniya">
+                  <td><span class="postcode-badge">43000</span></td>
+                  <td><strong>Vavuniya</strong></td>
+                  <td>Vavuniya</td>
+                  <td><span class="province-tag">Northern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="43000" aria-label="Copy code 43000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- Eastern Province -->
+                <tr data-province="Eastern" data-code="31000" data-office="Trincomalee Head Post Office" data-district="Trincomalee">
+                  <td><span class="postcode-badge">31000</span></td>
+                  <td><strong>Trincomalee Head Post Office</strong></td>
+                  <td>Trincomalee</td>
+                  <td><span class="province-tag">Eastern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="31000" aria-label="Copy code 31000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Eastern" data-code="30000" data-office="Batticaloa Head Post Office" data-district="Batticaloa">
+                  <td><span class="postcode-badge">30000</span></td>
+                  <td><strong>Batticaloa Head Post Office</strong></td>
+                  <td>Batticaloa</td>
+                  <td><span class="province-tag">Eastern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="30000" aria-label="Copy code 30000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Eastern" data-code="32000" data-office="Ampara Post Office" data-district="Ampara">
+                  <td><span class="postcode-badge">32000</span></td>
+                  <td><strong>Ampara</strong></td>
+                  <td>Ampara</td>
+                  <td><span class="province-tag">Eastern</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="32000" aria-label="Copy code 32000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- North Western Province -->
+                <tr data-province="North Western" data-code="60000" data-office="Kurunegala Head Post Office" data-district="Kurunegala">
+                  <td><span class="postcode-badge">60000</span></td>
+                  <td><strong>Kurunegala Head Post Office</strong></td>
+                  <td>Kurunegala</td>
+                  <td><span class="province-tag">North Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="60000" aria-label="Copy code 60000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="North Western" data-code="61000" data-office="Chilaw Post Office" data-district="Puttalam">
+                  <td><span class="postcode-badge">61000</span></td>
+                  <td><strong>Chilaw</strong></td>
+                  <td>Puttalam</td>
+                  <td><span class="province-tag">North Western</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="61000" aria-label="Copy code 61000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- North Central Province -->
+                <tr data-province="North Central" data-code="50000" data-office="Anuradhapura Head Post Office" data-district="Anuradhapura">
+                  <td><span class="postcode-badge">50000</span></td>
+                  <td><strong>Anuradhapura Head Post Office</strong></td>
+                  <td>Anuradhapura</td>
+                  <td><span class="province-tag">North Central</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="50000" aria-label="Copy code 50000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="North Central" data-code="51000" data-office="Polonnaruwa Post Office" data-district="Polonnaruwa">
+                  <td><span class="postcode-badge">51000</span></td>
+                  <td><strong>Polonnaruwa</strong></td>
+                  <td>Polonnaruwa</td>
+                  <td><span class="province-tag">North Central</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="51000" aria-label="Copy code 51000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- Uva Province -->
+                <tr data-province="Uva" data-code="90000" data-office="Badulla Head Post Office" data-district="Badulla">
+                  <td><span class="postcode-badge">90000</span></td>
+                  <td><strong>Badulla Head Post Office</strong></td>
+                  <td>Badulla</td>
+                  <td><span class="province-tag">Uva</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="90000" aria-label="Copy code 90000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Uva" data-code="90100" data-office="Bandarawela Post Office" data-district="Badulla">
+                  <td><span class="postcode-badge">90100</span></td>
+                  <td><strong>Bandarawela</strong></td>
+                  <td>Badulla</td>
+                  <td><span class="province-tag">Uva</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="90100" aria-label="Copy code 90100" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+
+                <!-- Sabaragamuwa Province -->
+                <tr data-province="Sabaragamuwa" data-code="70000" data-office="Ratnapura Head Post Office" data-district="Ratnapura">
+                  <td><span class="postcode-badge">70000</span></td>
+                  <td><strong>Ratnapura Head Post Office</strong></td>
+                  <td>Ratnapura</td>
+                  <td><span class="province-tag">Sabaragamuwa</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="70000" aria-label="Copy code 70000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+                <tr data-province="Sabaragamuwa" data-code="71000" data-office="Kegalle Head Post Office" data-district="Kegalle">
+                  <td><span class="postcode-badge">71000</span></td>
+                  <td><strong>Kegalle Head Post Office</strong></td>
+                  <td>Kegalle</td>
+                  <td><span class="province-tag">Sabaragamuwa</span></td>
+                  <td style="text-align: center;"><button type="button" class="copy-code-btn" data-code="71000" aria-label="Copy code 71000" data-i18n="info_codes_copy_btn">Copy</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="table-no-results" id="codes-no-results" style="display: none;">
+            <p>No matching post office or code found. Please verify the town or district name.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. POSTAGE RATES & TARIFFS SECTION -->
+    <section class="info-rates-section" id="rates" aria-labelledby="rates-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="section-badge-pill">Gazette Tariff Rates</div>
+          <h2 class="section-title" id="rates-heading" data-i18n="info_rates_heading">Postage Rates &amp; Tariff Schedules</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_rates_intro">Official rates revised under Gazette Extraordinary notifications. Accurate for all computerized counters.</p>
+        </div>
+
+        <!-- Tariff Category Tabs -->
+        <div class="rates-tabs-wrapper" role="tablist" aria-label="Postage rates categories">
+          <button type="button" class="rate-tab-btn active" id="tab-inland-btn" role="tab" aria-selected="true" aria-controls="tab-inland" data-i18n="info_tab_inland">Domestic Mail</button>
+          <button type="button" class="rate-tab-btn" id="tab-international-btn" role="tab" aria-selected="false" aria-controls="tab-international" data-i18n="info_tab_international">International Airmail</button>
+          <button type="button" class="rate-tab-btn" id="tab-ems-btn" role="tab" aria-selected="false" aria-controls="tab-ems" data-i18n="info_tab_ems">EMS Speed Post</button>
+          <button type="button" class="rate-tab-btn" id="tab-financial-btn" role="tab" aria-selected="false" aria-controls="tab-financial" data-i18n="info_tab_financial">Financial &amp; Agency Fees</button>
+        </div>
+
+        <!-- Panel 1: Domestic Mail -->
+        <div class="rate-tab-panel active" id="tab-inland" role="tabpanel" aria-labelledby="tab-inland-btn">
+          <div class="rates-card-table-wrap">
+            <div class="rates-table-header">
+              <h3>Domestic Inland Letters &amp; Packets</h3>
+              <span class="rates-currency-tag">All prices in Sri Lankan Rupees (LKR)</span>
+            </div>
+            <div class="table-responsive-wrapper">
+              <table class="rates-data-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Article Type</th>
+                    <th scope="col">Weight Step</th>
+                    <th scope="col">Standard Fee</th>
+                    <th scope="col">Registered Mail</th>
+                    <th scope="col">Notes &amp; Restrictions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Ordinary Letter</strong></td>
+                    <td>Up to 20 grams</td>
+                    <td><span class="rate-price-tag">Rs. 50.00</span></td>
+                    <td><span class="rate-price-tag">Rs. 110.00</span> (+Rs. 60)</td>
+                    <td>Standard envelope max 120 x 235 mm</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Ordinary Letter</strong></td>
+                    <td>21g – 50g</td>
+                    <td><span class="rate-price-tag">Rs. 70.00</span></td>
+                    <td><span class="rate-price-tag">Rs. 130.00</span></td>
+                    <td>Standard domestic correspondence</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Ordinary Letter</strong></td>
+                    <td>51g – 100g</td>
+                    <td><span class="rate-price-tag">Rs. 90.00</span></td>
+                    <td><span class="rate-price-tag">Rs. 150.00</span></td>
+                    <td>A5/A4 folded correspondence</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Heavy Letter / Packet</strong></td>
+                    <td>Each additional 100g (up to 2kg)</td>
+                    <td><span class="rate-price-tag">+ Rs. 40.00</span></td>
+                    <td><span class="rate-price-tag">+ Rs. 60.00 reg fee</span></td>
+                    <td>Above 2kg handled as domestic parcel</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Official Postcard</strong></td>
+                    <td>Single standard postcard</td>
+                    <td><span class="rate-price-tag">Rs. 30.00</span></td>
+                    <td>N/A</td>
+                    <td>Min 90 x 140 mm, max 105 x 148 mm</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Printed Papers &amp; Open Packets</strong></td>
+                    <td>Up to 50 grams</td>
+                    <td><span class="rate-price-tag">Rs. 40.00</span></td>
+                    <td><span class="rate-price-tag">Rs. 100.00</span></td>
+                    <td>Unsealed for postal inspection</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Business Reply Card / Envelope</strong></td>
+                    <td>Per article returned</td>
+                    <td><span class="rate-price-tag">Rs. 55.00</span></td>
+                    <td>N/A</td>
+                    <td>Requires licensed permit account</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="rates-table-note">
+              <p><strong>Note:</strong> Registration provides barcode tracking and signed acknowledgement receipt at delivery. Domestic money orders require additional commission.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: International Airmail -->
+        <div class="rate-tab-panel" id="tab-international" role="tabpanel" aria-labelledby="tab-international-btn" hidden>
+          <div class="rates-card-table-wrap">
+            <div class="rates-table-header">
+              <h3>International Airmail Tariff Schedule</h3>
+              <span class="rates-currency-tag">Effective January 2024</span>
+            </div>
+            <div class="table-responsive-wrapper">
+              <table class="rates-data-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Destination Zone</th>
+                    <th scope="col">Representative Countries</th>
+                    <th scope="col">Letter up to 20g</th>
+                    <th scope="col">Each Addl. 10g</th>
+                    <th scope="col">Registered Airmail</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Zone 1 (SAARC)</strong></td>
+                    <td>India, Maldives, Pakistan, Bangladesh, Nepal</td>
+                    <td><span class="rate-price-tag">Rs. 130.00</span></td>
+                    <td>Rs. 40.00</td>
+                    <td><span class="rate-price-tag">+ Rs. 450.00</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Zone 2 (Asia Pacific)</strong></td>
+                    <td>Singapore, Malaysia, China, Japan, Thailand</td>
+                    <td><span class="rate-price-tag">Rs. 160.00</span></td>
+                    <td>Rs. 55.00</td>
+                    <td><span class="rate-price-tag">+ Rs. 450.00</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Zone 3 (Middle East &amp; Europe)</strong></td>
+                    <td>UAE, Saudi Arabia, Qatar, UK, France, Germany</td>
+                    <td><span class="rate-price-tag">Rs. 190.00</span></td>
+                    <td>Rs. 65.00</td>
+                    <td><span class="rate-price-tag">+ Rs. 450.00</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Zone 4 (Americas &amp; Africa)</strong></td>
+                    <td>USA, Canada, Australia, New Zealand, South Africa</td>
+                    <td><span class="rate-price-tag">Rs. 230.00</span></td>
+                    <td>Rs. 80.00</td>
+                    <td><span class="rate-price-tag">+ Rs. 450.00</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="rates-table-note">
+              <p><strong>Customs Notice:</strong> All international packets containing dutiable goods require customs declaration CN22 (under 2kg) or CN23 (over 2kg).</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 3: EMS Speed Post -->
+        <div class="rate-tab-panel" id="tab-ems" role="tabpanel" aria-labelledby="tab-ems-btn" hidden>
+          <div class="rates-card-table-wrap">
+            <div class="rates-table-header">
+              <h3>EMS Speed Post Guaranteed Express Rates</h3>
+              <span class="rates-currency-tag">End-to-end Tracked Courier</span>
+            </div>
+            <div class="table-responsive-wrapper">
+              <table class="rates-data-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Service Tier</th>
+                    <th scope="col">Target Destination</th>
+                    <th scope="col">Base Weight (500g)</th>
+                    <th scope="col">Each Addl. 500g</th>
+                    <th scope="col">Delivery SLA</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>EMS Domestic Island-Wide</strong></td>
+                    <td>All 25 Districts</td>
+                    <td><span class="rate-price-tag">Rs. 250.00</span></td>
+                    <td>Rs. 100.00</td>
+                    <td>Next Morning / 24 Hours</td>
+                  </tr>
+                  <tr>
+                    <td><strong>EMS International: UK</strong></td>
+                    <td>United Kingdom &amp; Ireland</td>
+                    <td><span class="rate-price-tag">Rs. 4,800.00</span></td>
+                    <td>Rs. 1,200.00</td>
+                    <td>3 – 5 Working Days</td>
+                  </tr>
+                  <tr>
+                    <td><strong>EMS International: Middle East</strong></td>
+                    <td>UAE, Kuwait, Oman</td>
+                    <td><span class="rate-price-tag">Rs. 3,900.00</span></td>
+                    <td>Rs. 950.00</td>
+                    <td>2 – 4 Working Days</td>
+                  </tr>
+                  <tr>
+                    <td><strong>EMS International: USA &amp; Canada</strong></td>
+                    <td>United States &amp; Canada</td>
+                    <td><span class="rate-price-tag">Rs. 5,600.00</span></td>
+                    <td>Rs. 1,450.00</td>
+                    <td>4 – 7 Working Days</td>
+                  </tr>
+                  <tr>
+                    <td><strong>EMS International: Australia</strong></td>
+                    <td>Australia &amp; New Zealand</td>
+                    <td><span class="rate-price-tag">Rs. 4,500.00</span></td>
+                    <td>Rs. 1,150.00</td>
+                    <td>3 – 6 Working Days</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="rates-table-note">
+              <p><strong>Tracking:</strong> Real-time tracking included at <a href="services.html#ems-speed-post" style="color: var(--color-red); text-decoration: underline;">EMS Speed Post</a> with proof of signature upon delivery.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 4: Financial & Agency Fees -->
+        <div class="rate-tab-panel" id="tab-financial" role="tabpanel" aria-labelledby="tab-financial-btn" hidden>
+          <div class="rates-card-table-wrap">
+            <div class="rates-table-header">
+              <h3>Financial, Counter &amp; Agency Service Charges</h3>
+              <span class="rates-currency-tag">Official Statutory Schedule</span>
+            </div>
+            <div class="table-responsive-wrapper">
+              <table class="rates-data-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Service Item</th>
+                    <th scope="col">Scope / Parameter</th>
+                    <th scope="col">Official Fee</th>
+                    <th scope="col">Turnaround / Validity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Domestic Money Order</strong></td>
+                    <td>Up to Rs. 1,000.00</td>
+                    <td><span class="rate-price-tag">Rs. 30.00</span></td>
+                    <td>Instant pay at computerized post office</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Domestic Money Order</strong></td>
+                    <td>Rs. 1,001.00 – Rs. 5,000.00</td>
+                    <td><span class="rate-price-tag">Rs. 60.00</span></td>
+                    <td>Same day electronic transfer</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Domestic Money Order</strong></td>
+                    <td>Rs. 5,001.00 – Rs. 50,000.00 (Max)</td>
+                    <td><span class="rate-price-tag">1.2% of value</span></td>
+                    <td>Guaranteed treasury-backed remittance</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Postal Identity Card (Standard)</strong></td>
+                    <td>Application with photographs</td>
+                    <td><span class="rate-price-tag">Rs. 300.00</span></td>
+                    <td>Valid for 5 years island-wide</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Postal Identity Card (One-Day Express)</strong></td>
+                    <td>Postal HQ Centralized Desk</td>
+                    <td><span class="rate-price-tag">Rs. 800.00</span></td>
+                    <td>Issued within 4 hours at Colombo HQ</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Private Post Box Annual Rental</strong></td>
+                    <td>Colombo General Post Office (GPO)</td>
+                    <td><span class="rate-price-tag">Rs. 2,500.00 / yr</span></td>
+                    <td>Annual calendar renewal</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Private Post Box Annual Rental</strong></td>
+                    <td>Provincial &amp; Sub Post Offices</td>
+                    <td><span class="rate-price-tag">Rs. 1,500.00 / yr</span></td>
+                    <td>Subject to box vacancy availability</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="rates-table-note">
+              <p><strong>Receipt:</strong> All agency payments receive an official automated machine receipt. Keep the physical receipt for transaction verification.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. OFFICIAL DOWNLOADABLE FORMS SECTION -->
+    <section class="info-forms-section" id="forms" aria-labelledby="forms-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="section-badge-pill">PDF Document Center</div>
+          <h2 class="section-title" id="forms-heading" data-i18n="info_forms_heading">Official Downloadable Forms</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_forms_intro">Download official departmental applications in PDF format. Submit completed forms at any post office counter.</p>
+        </div>
+
+        <div class="forms-grid">
+          <!-- Form 1: Private Post Box -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">SLP/PB/01</span>
+            </div>
+            <h3 class="form-card-title">Private Post Box / Post Bag Application</h3>
+            <p class="form-card-desc">Application for tenancy of private post box lockets or private mailbags at designated delivery post offices.</p>
+            <div class="form-meta-row">
+              <span>Size: 245 KB</span>
+              <span>Language: Trilingual</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="SLP_PB_01_Private_Postbox.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 2: Postal ID Card -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">SLP/ID/01</span>
+            </div>
+            <h3 class="form-card-title">Postal Identity Card Application Form</h3>
+            <p class="form-card-desc">Official identity card application for citizens without a National ID card or passport for postal identity verification.</p>
+            <div class="form-meta-row">
+              <span>Size: 320 KB</span>
+              <span>Requires Grama Niladhari cert</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="SLP_ID_01_Postal_ID.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 3: Customs CN22 -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">UPU CN22</span>
+            </div>
+            <h3 class="form-card-title">Customs Declaration Label (CN22)</h3>
+            <p class="form-card-desc">Green customs sticker declaration for international airmail letters and small packets weighing up to 2 kg.</p>
+            <div class="form-meta-row">
+              <span>Size: 180 KB</span>
+              <span>Universal Postal Union format</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="UPU_CN22_Customs_Declaration.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 4: Customs CN23 -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">UPU CN23</span>
+            </div>
+            <h3 class="form-card-title">Customs Parcel Declaration (CN23)</h3>
+            <p class="form-card-desc">Detailed multi-copy declaration for commercial parcels, merchandise, and items weighing above 2 kg.</p>
+            <div class="form-meta-row">
+              <span>Size: 210 KB</span>
+              <span>Harmonized tariff codes required</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="UPU_CN23_Customs_Declaration.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 5: Lost Money Order Investigation -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">SLP/MO/02</span>
+            </div>
+            <h3 class="form-card-title">Lost Money Order Claim &amp; Duplicate Request</h3>
+            <p class="form-card-desc">Form to initiate investigations, stop payment, and obtain duplicate issuance for lost or damaged money orders.</p>
+            <div class="form-meta-row">
+              <span>Size: 195 KB</span>
+              <span>Attach original post counter receipt</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="SLP_MO_02_Lost_Money_Order.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 6: Mail Redirection -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">SLP/RD/01</span>
+            </div>
+            <h3 class="form-card-title">Mail Redirection &amp; Retention Notice</h3>
+            <p class="form-card-desc">Notice of temporary address change, mail redirection, or counter retention during overseas travel or relocation.</p>
+            <div class="form-meta-row">
+              <span>Size: 160 KB</span>
+              <span>Valid up to 6 months</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="SLP_RD_01_Mail_Redirection.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 7: Holiday Bungalow -->
+          <article class="form-download-card">
+            <div class="form-card-header">
+              <span class="form-format-pill">PDF</span>
+              <span class="form-code-badge">SLP/HB/01</span>
+            </div>
+            <h3 class="form-card-title">Holiday Bungalow Reservation Application</h3>
+            <p class="form-card-desc">Reservation booking form for departmental rest houses and holiday bungalows (Nuwara Eliya, Bandarawela, Galle).</p>
+            <div class="form-meta-row">
+              <span>Size: 280 KB</span>
+              <span>Available for staff &amp; public</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="SLP_HB_01_Holiday_Bungalow.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_form_btn_download">Download PDF</span>
+            </button>
+          </article>
+
+          <!-- Form 8: RTI 01 Form -->
+          <article class="form-download-card" style="border-color: rgba(208, 16, 29, 0.4);">
+            <div class="form-card-header">
+              <span class="form-format-pill" style="background: rgba(208, 16, 29, 0.15); color: var(--color-red);">RTI Form</span>
+              <span class="form-code-badge" style="background: var(--color-red); color: #fff;">RTI 01</span>
+            </div>
+            <h3 class="form-card-title">RTI 01: Application for Official Information</h3>
+            <p class="form-card-desc">Statutory application form to request departmental information under the Right to Information Act No. 12 of 2016.</p>
+            <div class="form-meta-row">
+              <span>Size: 220 KB</span>
+              <span>Statutory 14-day turnaround</span>
+            </div>
+            <button type="button" class="form-download-btn" data-form="RTI_01_Application_Form.pdf" style="background: var(--color-red); color: #fff;">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+              <span data-i18n="info_rti_download_btn">Download RTI 01 Form</span>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROHIBITED & RESTRICTED ARTICLES SECTION -->
+    <section class="info-prohibited-section" id="prohibited-items" aria-labelledby="prohibited-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="section-badge-pill">Postal Security &amp; Safety</div>
+          <h2 class="section-title" id="prohibited-heading" data-i18n="info_prohibited_heading">Prohibited &amp; Restricted Articles</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_prohibited_intro">In compliance with Universal Postal Union and Sri Lanka Customs regulations, hazardous and restricted items are governed strictly.</p>
+        </div>
+
+        <div class="prohibited-grid">
+          <!-- Card 1: Strictly Prohibited -->
+          <article class="prohibited-card danger-card">
+            <div class="prohibited-card-top">
+              <div class="prohibited-icon danger-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+              </div>
+              <div>
+                <h3 class="prohibited-card-title text-danger" data-i18n="info_strictly_prohibited_title">Strictly Prohibited Items</h3>
+                <span class="prohibited-subtag">Post Office Ordinance Sec. 16 — Absolute Ban</span>
+              </div>
+            </div>
+            <p class="prohibited-summary">The following items must never be consigned under any circumstance. Detection leads to immediate confiscation and law enforcement referral:</p>
+            <ul class="prohibited-list danger-bullets">
+              <li><strong>Explosives, ammunition, fireworks &amp; flares:</strong> Any detonating, combustible, or pyrotechnic chemical compound.</li>
+              <li><strong>Flammable gases, liquids &amp; solids:</strong> Matches, lighters, aerosols, petrol, paints, solvents, kerosene, and alcohol over 70% ABV.</li>
+              <li><strong>Narcotics, psychotropic drugs &amp; illicit substances:</strong> Controlled pharmaceuticals without authorized government licenses.</li>
+              <li><strong>Currency notes, bullion &amp; bearer securities:</strong> Physical currency notes, coins, gold bullion, and traveler cheques via standard mail.</li>
+              <li><strong>Live animals, reptiles &amp; infectious organisms:</strong> Pathological cultures, venomous insects, biohazard substances, and rabies vectors.</li>
+              <li><strong>Obscene, offensive, or subversive media:</strong> Materials that violate national sovereignty or public morality statutes.</li>
+            </ul>
+          </article>
+
+          <!-- Card 2: Conditionally Restricted -->
+          <article class="prohibited-card warning-card">
+            <div class="prohibited-card-top">
+              <div class="prohibited-icon warning-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"/></svg>
+              </div>
+              <div>
+                <h3 class="prohibited-card-title text-warning" data-i18n="info_restricted_title">Conditionally Restricted Items</h3>
+                <span class="prohibited-subtag">Acceptable Only with Certified Permits &amp; Packaging</span>
+              </div>
+            </div>
+            <p class="prohibited-summary">These articles are accepted exclusively when accompanied by statutory permits and compliant specialized protective packaging:</p>
+            <ul class="prohibited-list warning-bullets">
+              <li><strong>Lithium-ion Batteries (UN 3481):</strong> Permitted ONLY when permanently installed inside consumer electronics (max 2 spare cells with certified UN packaging labels).</li>
+              <li><strong>Pharmaceutical Prescription Medicines:</strong> Allowed when accompanied by an authorized Sri Lanka National Medicines Regulatory Authority (NMRA) physician certificate.</li>
+              <li><strong>Perfumes, Cosmetics &amp; Essential Oils:</strong> Permitted in domestic mail up to 100 ml per vial with hermetically sealed leak-proof absorbent layers.</li>
+              <li><strong>Commercial Foodstuffs &amp; Spices:</strong> Dry, non-perishable agricultural produce with Plant Quarantine Certification from the Department of Agriculture.</li>
+              <li><strong>Perishable Biological Specimens:</strong> Authorized academic and medical laboratory diagnostic samples utilizing dry-ice triple packaging.</li>
+              <li><strong>Gems, Jewellery &amp; Valuables:</strong> Permitted ONLY under Insured Letter / Parcel Post service with declared value stamps.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Packaging & Dimension Standards Guide -->
+        <div class="packaging-guide-card">
+          <div class="packaging-guide-header">
+            <div class="guide-icon-pill">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16.5l-9 5.25L3 16.5v-9l9-5.25 9 5.25v9zM12 4.15L5.2 8.1 12 12.05l6.8-3.95L12 4.15zM4.5 9.7v6.6l6.5 3.8v-6.6l-6.5-3.8zm8 10.4l6.5-3.8V9.7l-6.5 3.8v6.9z"/></svg>
+            </div>
+            <div>
+              <h3 class="packaging-guide-title" data-i18n="info_packaging_rules_title">Packaging &amp; Dimension Standards</h3>
+              <p class="packaging-guide-sub">Adhere to standardized packaging to prevent transit damage and automated sorting rejection.</p>
+            </div>
+          </div>
+
+          <div class="packaging-rules-grid">
+            <div class="packaging-rule-item">
+              <div class="rule-digit">01</div>
+              <h4>Minimum Dimensions</h4>
+              <p>Letters and packets must measure no less than <strong>90 mm &times; 140 mm</strong> with a tolerance of 2 mm for machine barcoding.</p>
+            </div>
+            <div class="packaging-rule-item">
+              <div class="rule-digit">02</div>
+              <h4>Maximum Parcel Size</h4>
+              <p>Maximum length <strong>1.5 meters</strong>; length plus greatest circumference measured in another direction must not exceed <strong>3 meters</strong>.</p>
+            </div>
+            <div class="packaging-rule-item">
+              <div class="rule-digit">03</div>
+              <h4>Cushioning &amp; Void Fill</h4>
+              <p>Fragile items require <strong>50 mm</strong> of bubble wrap or high-density foam on all 6 sides, with no free movement inside outer carton.</p>
+            </div>
+            <div class="packaging-rule-item">
+              <div class="rule-digit">04</div>
+              <h4>Clear Recipient Labelling</h4>
+              <p>Write recipient name, complete street address, town, and <strong>5-digit postal code</strong> in clear Latin or national script on the lower right face.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. RIGHT TO INFORMATION (RTI ACT NO. 12 OF 2016) SECTION -->
+    <section class="info-rti-section" id="rti" aria-labelledby="rti-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="section-badge-pill">Statutory Public Right</div>
+          <h2 class="section-title" id="rti-heading" data-i18n="info_rti_heading">Right to Information (RTI Act No. 12 of 2016)</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_rti_intro">The Department of Posts upholds proactive transparency, integrity, and citizen empowerment under the RTI Act.</p>
+        </div>
+
+        <div class="rti-content-grid">
+          <!-- Left: Designated Officers Card -->
+          <div class="rti-card rti-officers-card">
+            <h3 class="rti-block-title" data-i18n="info_rti_designated_title">Designated Officers</h3>
+            <p class="rti-block-desc">In accordance with Section 23 of RTI Act No. 12 of 2016, the following officials serve the public:</p>
+
+            <div class="officer-profile-item">
+              <div class="officer-badge">Designated Officer (Appeals)</div>
+              <h4 class="officer-name">Postmaster General</h4>
+              <p class="officer-role">Department of Posts, Sri Lanka</p>
+              <p class="officer-contact">Postal Headquarters, D.R. Wijewardena Mawatha, Colombo 00100</p>
+              <p class="officer-contact">Tel: <a href="tel:+94112328831">+94 11 232 8831</a> | Email: <a href="mailto:pmg@slpost.lk">pmg@slpost.lk</a></p>
+            </div>
+
+            <div class="officer-profile-item" style="margin-top: 18px;">
+              <div class="officer-badge" style="background: rgba(18, 53, 107, 0.1); color: var(--color-navy);">Information Officer</div>
+              <h4 class="officer-name">Deputy Postmaster General (Admin &amp; HR)</h4>
+              <p class="officer-role">Postal Headquarters</p>
+              <p class="officer-contact">D.R. Wijewardena Mawatha, Colombo 00100</p>
+              <p class="officer-contact">Tel: <a href="tel:+94112447953">+94 11 244 7953</a> | Email: <a href="mailto:info.rti@slpost.lk">info.rti@slpost.lk</a></p>
+            </div>
+          </div>
+
+          <!-- Right: RTI Process Timeline -->
+          <div class="rti-card rti-timeline-card">
+            <h3 class="rti-block-title" data-i18n="info_rti_process_title">RTI Request Procedure</h3>
+            <p class="rti-block-desc">Follow these straightforward statutory steps to request departmental documents and public information:</p>
+
+            <ol class="rti-timeline-list">
+              <li class="timeline-step">
+                <div class="timeline-step-badge">1</div>
+                <div class="timeline-step-content">
+                  <h4>Submit Form RTI 01</h4>
+                  <p>Obtain and fill Form RTI 01 specifying clearly the information, records, or statistics you wish to access.</p>
+                </div>
+              </li>
+              <li class="timeline-step">
+                <div class="timeline-step-badge">2</div>
+                <div class="timeline-step-content">
+                  <h4>Formal Acknowledgment (3 Days)</h4>
+                  <p>The Information Officer will issue written acknowledgment within <strong>3 working days</strong> of submission.</p>
+                </div>
+              </li>
+              <li class="timeline-step">
+                <div class="timeline-step-badge">3</div>
+                <div class="timeline-step-content">
+                  <h4>Decision &amp; Fulfillment (14 Days)</h4>
+                  <p>A decision is rendered within the statutory limit of <strong>14 working days</strong>, with fees charged strictly according to RTI Commission gazettes.</p>
+                </div>
+              </li>
+              <li class="timeline-step">
+                <div class="timeline-step-badge">4</div>
+                <div class="timeline-step-content">
+                  <h4>Statutory Appeal Rights</h4>
+                  <p>If information is denied or delayed, file an appeal to the Designated Officer (PMG) within <strong>14 days</strong> of decision.</p>
+                </div>
+              </li>
+            </ol>
+
+            <div class="rti-cta-wrap">
+              <button type="button" class="form-download-btn rti-btn-prominent" data-form="RTI_01_Application_Form.pdf">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+                <span data-i18n="info_rti_download_btn">Download RTI 01 Form</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CITIZEN DELIVERY CHARTER SECTION -->
+    <section class="info-standards-section" id="standards" aria-labelledby="charter-heading">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="section-badge-pill">Quality of Service</div>
+          <h2 class="section-title" id="charter-heading" data-i18n="info_charter_heading">Citizen Delivery Charter</h2>
+          <div class="title-underline"></div>
+          <p class="section-subtitle" data-i18n="info_charter_intro">Delivery targets and customer service commitments across the island network.</p>
+        </div>
+
+        <div class="charter-grid">
+          <!-- Standard 1 -->
+          <article class="charter-card">
+            <div class="charter-sla-badge">24 Hours</div>
+            <div class="charter-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            </div>
+            <h3 class="charter-card-title">Intra-City Delivery</h3>
+            <p class="charter-card-desc">Ordinary letters and registered packets posted before 11:00 AM are delivered within the same municipality or metropolitan area within <strong>24 Hours</strong>.</p>
+          </article>
+
+          <!-- Standard 2 -->
+          <article class="charter-card">
+            <div class="charter-sla-badge">48 Hours</div>
+            <div class="charter-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4z"/></svg>
+            </div>
+            <h3 class="charter-card-title">Inter-Provincial Mail</h3>
+            <p class="charter-card-desc">Mail traversing between administrative provinces across major arterial highways is sorted overnight and delivered within <strong>48 Hours</strong>.</p>
+          </article>
+
+          <!-- Standard 3 -->
+          <article class="charter-card">
+            <div class="charter-sla-badge">72 Hours</div>
+            <div class="charter-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+            </div>
+            <h3 class="charter-card-title">Rural &amp; Remote Delivery</h3>
+            <p class="charter-card-desc">Sub post offices in estate sectors, agricultural colonies, and remote island regions are served with scheduled bi-weekly or <strong>72-Hour</strong> cycles.</p>
+          </article>
+
+          <!-- Standard 4 -->
+          <article class="charter-card">
+            <div class="charter-sla-badge" style="background: var(--color-gold); color: #1D1B1C;">Next Day AM</div>
+            <div class="charter-icon-tile">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/></svg>
+            </div>
+            <h3 class="charter-card-title">EMS Speed Post Courier</h3>
+            <p class="charter-card-desc">Dedicated courier vehicles ensure next morning door-to-door delivery between all 25 district secretariats and priority commercial hubs.</p>
+          </article>
+        </div>
+
+        <!-- Hotline 1950 Support Banner -->
+        <div class="charter-hotline-banner">
+          <div class="hotline-banner-left">
+            <div class="hotline-big-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div>
+              <h3>Customer Care Hotline 1950</h3>
+              <p>For postal tracking inquiries, complaint registration, and guidance, dial toll-free 1950 (Weekdays 8:30 AM – 4:30 PM).</p>
+            </div>
+          </div>
+          <div class="hotline-banner-right">
+            <a href="tel:1950" class="hotline-call-action-btn">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <span>Call 1950 Toll Free</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 6. GLOBAL FOOTER (Department of Posts Shared Standard) -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Left Block: Brand, Tagline, Address -->
+        <div class="footer-brand-col">
+          <div class="footer-logo-plate">
+            <img src="images/post_logo.png" alt="Sri Lanka Post Logo" class="footer-logo-img" width="993" height="516" loading="lazy">
+          </div>
+          <p class="footer-tagline" data-i18n="footer_tagline">Connecting every Sri Lankan, every day.</p>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+              <span data-i18n="footer_address">No. 310, D.R. Wijewardena Mawatha, Colombo 01000, Sri Lanka</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <a href="tel:1950" data-i18n="footer_hotline">Hotline: 1950</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <a href="mailto:info@slpost.lk" data-i18n="footer_email">info@slpost.lk</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Block: Nav Columns -->
+        <div class="footer-links-grid">
+          <div>
+            <h4 class="footer-col-title" data-i18n="footer_col_about">About Us</h4>
+            <ul class="footer-link-list">
+              <li><a href="about.html#vision-mission" class="footer-link" data-i18n="nav_about_vision">Vision and Mission</a></li>
+              <li><a href="about.html#insights" class="footer-link" data-i18n="nav_about_insights">Our Insights</a></li>
+              <li><a href="about.html#major-functions" class="footer-link" data-i18n="nav_about_functions">Major Functions</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-col-title" data-i18n="footer_col_services">Services</h4>
+            <ul class="footer-link-list">
+              <li><a href="services.html#normal-post" class="footer-link" data-i18n="group_send_receive">Send and receive</a></li>
+              <li><a href="services.html#bill-payments" class="footer-link" data-i18n="group_pay">Pay</a></li>
+              <li><a href="services.html#money-transfer" class="footer-link" data-i18n="group_money_protect">Money and protection</a></li>
+              <li><a href="services.html#e-telemail" class="footer-link" data-i18n="group_messages_products">Messages and products</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-col-title" data-i18n="footer_col_info">Information</h4>
+            <ul class="footer-link-list">
+              <li><a href="information.html#rates" class="footer-link" data-i18n="footer_postal_rates">Rates &amp; Tariffs</a></li>
+              <li><a href="information.html#postal-codes" class="footer-link" data-i18n="footer_postal_codes">Postal Codes</a></li>
+              <li><a href="information.html#forms" class="footer-link" data-i18n="footer_forms">Downloadable Forms</a></li>
+              <li><a href="information.html#prohibited-items" class="footer-link" data-i18n="info_pill_prohibited">Prohibited Articles</a></li>
+              <li><a href="information.html#rti" class="footer-link" data-i18n="info_pill_rti">Right to Information</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media Bar (Real Official Brand SVG Icons) -->
+      <div class="footer-social-row">
+        <span class="footer-social-label" data-i18n="footer_social_label">Official Social Channels:</span>
+        <div class="social-links-list">
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Strip -->
+      <div class="footer-bottom-strip">
+        <p>&copy; <span id="current-year">2026</span> <span data-i18n="footer_copyright">Department of Posts, Sri Lanka. All Rights Reserved.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 7. CHATBOT & 8. HOTLINE FLOATING BUTTONS & PANELS -->
+  <div class="floating-tools-stack">
+    <!-- Hotline Popover Menu -->
+    <div class="hotline-menu-popover" id="hotline-popover" role="dialog" aria-hidden="true" aria-label="Quick contact menu">
+      <div class="hotline-menu-title" data-i18n="hotline_menu_title">Quick Contact Options</div>
+      <a href="tel:1950" class="hotline-menu-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <span data-i18n="hotline_call_btn">Call hotline 1950</span>
+      </a>
+      <a href="https://wa.me/94112328301" class="hotline-menu-item" id="hotline-wa-link" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/></svg>
+        <span data-i18n="hotline_wa_btn">Get alerts on WhatsApp</span>
+      </a>
+    </div>
+
+    <!-- Hotline Toggle Button -->
+    <button type="button" class="floating-action-btn hotline-btn" id="hotline-toggle-btn" aria-label="Open quick contact menu" aria-expanded="false" aria-controls="hotline-popover" title="Call hotline or WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+    </button>
+
+    <!-- Chatbot Dialog Panel -->
+    <section class="chatbot-panel-dialog" id="chatbot-panel" role="dialog" aria-hidden="true" aria-labelledby="chat-heading">
+      <div class="chatbot-header">
+        <div class="chatbot-title-box">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <svg class="ai-sparkle-icon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/></svg>
+            <h3 id="chat-heading" class="chatbot-title" data-i18n="chat_title">Ask Sri Lanka Post</h3>
+          </div>
+          <span class="chatbot-badge" data-i18n="chat_badge">AI Assistant</span>
+        </div>
+        <button type="button" class="chatbot-close-btn" id="chatbot-close-btn" aria-label="Close AI assistant">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </div>
+
+      <div class="chatbot-body" id="chatbot-messages" role="log" aria-live="polite">
+        <!-- Initial Welcome Message Bubble -->
+        <div class="chat-bubble bubble-bot" data-i18n="chat_welcome">
+          Hello! Welcome to the Sri Lanka Post assistant. How can I help you today?
+        </div>
+
+        <!-- 5 FAQ Quick Questions Buttons -->
+        <div class="chatbot-quick-replies" role="group" aria-label="Suggested questions">
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q1" data-answer-key="chat_a1" data-i18n="chat_q1">How do I track an item?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q2" data-answer-key="chat_a2" data-i18n="chat_q2">How can I contact you?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q3" data-answer-key="chat_a3" data-i18n="chat_q3">Which payments can I make at a post office?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q4" data-answer-key="chat_a4" data-i18n="chat_q4">How do I send a parcel abroad?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q5" data-answer-key="chat_a5" data-i18n="chat_q5">Where is my nearest post office?</button>
+        </div>
+      </div>
+
+      <div class="chatbot-footer" data-i18n="chat_footer_note">
+        University assignment prototype demo assistant.
+      </div>
+    </section>
+
+    <!-- AI Assistant Toggle Button -->
+    <button type="button" class="floating-action-btn ai-assistant-btn" id="chatbot-toggle-btn" aria-label="Open Sri Lanka Post AI Assistant" aria-expanded="false" aria-controls="chatbot-panel" title="Ask Sri Lanka Post AI Assistant">
+      <svg class="ai-sparkle-svg" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-notice" id="notif-toast" role="status" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>

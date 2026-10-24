@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#D0101D">
+  <meta name="description" content="Official website of Sri Lanka Post (Department of Posts). Providing nationwide postal, financial, EMS courier, and digital delivery services since 1798.">
+  <title data-i18n="page_title_home">Sri Lanka Post | Official Department of Posts Portal</title>
+
+  <!-- Preconnect & Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Noto+Sans+Sinhala:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Preload First Hero Image -->
+  <link rel="preload" as="image" href="images/Service/main_hero1.jpg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="skip-link" data-i18n="skip_to_content">Skip to main content</a>
+
+  <!-- 1. STICKY RED NAVIGATION BAR -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <!-- Left: Logo Group (Transparent Backgrounds) -->
+      <a href="index.html" class="nav-brand-group" aria-label="Sri Lanka Post Home">
+        <span class="logo-plate">
+          <img src="images/government_logo.png" alt="Emblem of Sri Lanka" class="logo-img" width="348" height="348">
+        </span>
+        <span class="logo-plate">
+          <img src="images/post_logo.png" alt="Sri Lanka Post Logo" class="logo-img" width="993" height="516">
+        </span>
+      </a>
+
+      <!-- Center Links & Mobile Drawer -->
+      <nav class="nav-links-menu" id="nav-links-menu" aria-label="Main Navigation">
+        <!-- Drawer Top Row (Visible only on mobile/tablet < 1100px) -->
+        <div class="drawer-tools-row">
+          <!-- Language Segmented Control (Mobile) -->
+          <div class="lang-switcher" role="group" aria-label="Language selection">
+            <button type="button" class="lang-btn active" data-lang="en" aria-current="true">English</button>
+            <button type="button" class="lang-btn" data-lang="si">සිංහල</button>
+            <button type="button" class="lang-btn" data-lang="ta">தமிழ்</button>
+          </div>
+          <!-- Action Buttons (Mobile) -->
+          <div style="display: flex; gap: 8px;">
+            <button type="button" class="nav-icon-btn" id="drawer-notification-btn" aria-label="Enable notifications" title="Enable notifications">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
+            </button>
+            <button type="button" class="nav-icon-btn" id="drawer-theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+              <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+              <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <ul class="nav-links-menu" style="display: contents;">
+          <!-- Home (Active) -->
+          <li class="nav-item current-page">
+            <a href="index.html" class="nav-link active" data-i18n="nav_home">Home</a>
+          </li>
+
+          <!-- About Us Dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="about.html" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_about">About Us</span>
+              <svg class="dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="about.html#vision-mission" class="dropdown-link" role="menuitem" data-i18n="nav_about_vision">Vision and Mission</a>
+              <a href="about.html#insights" class="dropdown-link" role="menuitem" data-i18n="nav_about_insights">Our Insights</a>
+              <a href="about.html#major-functions" class="dropdown-link" role="menuitem" data-i18n="nav_about_functions">Major Functions</a>
+            </div>
+          </li>
+
+          <!-- Services Dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="services.html" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_services">Services</span>
+              <svg class="dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="services.html#normal-post" class="dropdown-link" role="menuitem" data-i18n="srv1_title">Normal Post (Domestic Mail)</a>
+              <a href="services.html#international-post" class="dropdown-link" role="menuitem" data-i18n="srv2_title">International Post</a>
+              <a href="services.html#money-transfer" class="dropdown-link" role="menuitem" data-i18n="srv3_title">Money Transfer</a>
+              <a href="services.html#ems-speed-post" class="dropdown-link" role="menuitem" data-i18n="srv4_title">EMS Speed Post</a>
+              <a href="services.html#cash-on-delivery" class="dropdown-link" role="menuitem" data-i18n="srv5_title">Cash on Delivery</a>
+              <a href="services.html" class="dropdown-link" role="menuitem" style="font-weight: 700; color: var(--color-red);" data-i18n="hero1_btn_services">All Services →</a>
+            </div>
+          </li>
+
+          <!-- Information -->
+          <li class="nav-item">
+            <a href="information.html" class="nav-link" data-i18n="nav_info">Information</a>
+          </li>
+
+          <!-- Media Gallery -->
+          <li class="nav-item">
+            <a href="coming-soon.html" class="nav-link" data-i18n="nav_media">Media Gallery</a>
+          </li>
+
+          <!-- Notices Dropdown -->
+          <li class="nav-item has-dropdown">
+            <a href="notices.html" class="nav-link" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_notices">Notices</span>
+              <svg class="dropdown-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5z"/></svg>
+            </a>
+            <div class="dropdown-menu" role="menu">
+              <a href="notices.html#public" class="dropdown-link" role="menuitem" data-i18n="nav_notices_public">Public Notices</a>
+              <a href="notices.html#procurement" class="dropdown-link" role="menuitem" data-i18n="nav_notices_procurement">Procurement</a>
+              <a href="notices.html#vacancies" class="dropdown-link" role="menuitem" data-i18n="nav_notices_vacancies">Vacancies</a>
+              <a href="notices.html#reports" class="dropdown-link" role="menuitem" data-i18n="nav_notices_reports">Performance Reports</a>
+            </div>
+          </li>
+
+          <!-- Contact Us -->
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right Zone (Desktop Tools) -->
+      <div class="nav-tools-group">
+        <!-- Language Switcher Segmented Control -->
+        <div class="lang-switcher" role="group" aria-label="Language selection">
+          <button type="button" class="lang-btn active" data-lang="en" aria-current="true">English</button>
+          <button type="button" class="lang-btn" data-lang="si">සිංහල</button>
+          <button type="button" class="lang-btn" data-lang="ta">தமிழ்</button>
+        </div>
+
+        <!-- Notification Bell Button -->
+        <button type="button" class="nav-icon-btn" id="notification-btn" aria-label="Enable notifications" title="Enable notifications">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
+        </button>
+
+        <!-- Day / Night Toggle -->
+        <button type="button" class="nav-icon-btn" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-3.03 0-5.5-2.47-5.5-5.5 0-1.82.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0s-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41s-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"/></svg>
+        </button>
+      </div>
+
+      <!-- Hamburger Button (Mobile < 1100px) -->
+      <button type="button" class="nav-hamburger-btn" id="nav-hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links-menu">
+        <svg class="hamburger-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. NOTIFICATION BAR (Cricket Scoreboard Roll) -->
+  <aside class="notification-bar" aria-label="Official announcements and alerts">
+    <div class="container notification-container">
+      <div class="notif-badge">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        <span data-i18n="nav_alerts_label">Alerts</span>
+      </div>
+
+      <!-- Viewport for scoreboard slide roll -->
+      <div class="notif-viewport" id="notif-viewport" aria-live="polite">
+        <div class="notif-item is-current" role="status">
+          <a href="coming-soon.html" class="notif-link">Postal services to Israel, Qatar, Saudi Arabia and Lebanon are temporarily suspended.</a>
+        </div>
+      </div>
+
+      <!-- Counter and Play/Pause Controls -->
+      <div class="notif-controls">
+        <span class="notif-counter" id="notif-counter">1 / 4</span>
+        <button type="button" class="notif-pause-btn" id="notif-pause-btn" aria-label="Pause alerts ticker" title="Pause alerts ticker">
+          <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+          <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true" style="display: none;"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT AREA -->
+  <main id="main-content">
+    <!-- 3. HERO SLIDER -->
+    <section class="hero-slider-section" aria-label="Featured Department Highlights">
+      <div class="slider-track" id="home-slider-track">
+        <!-- Slide 1 (Preloaded, Eager) -->
+        <article class="slide-item active" aria-hidden="false">
+          <img src="images/Service/main_hero1.jpg" alt="Sri Lanka Post frontline officers standing proudly outside a historic post office" class="slide-bg-img" width="1376" height="768" fetchpriority="high" loading="eager">
+          <div class="slide-overlay">
+            <div class="container slide-content-wrap">
+              <div class="slide-text-box">
+                <h1 class="slide-heading" data-i18n="hero1_title">Sri Lanka Post</h1>
+                <span class="slide-accent-line" aria-hidden="true"></span>
+                <p class="slide-description" data-i18n="hero1_desc">Serving the nation since 1798 with unwavering trust and nationwide connectivity.</p>
+                <div class="slide-buttons-group">
+                  <a href="services.html" class="btn-primary" data-i18n="hero1_btn_services">Our services</a>
+                  <a href="coming-soon.html#tracking" class="btn-secondary" data-i18n="hero1_btn_track">Track an item</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Slide 2 (Lazy Loaded) -->
+        <article class="slide-item" aria-hidden="true">
+          <img src="images/Service/Main_hero2.jpg" alt="Children joyfully posting a letter into a classic Sri Lanka Post red mailbox" class="slide-bg-img" width="1376" height="768" loading="lazy">
+          <div class="slide-overlay">
+            <div class="container slide-content-wrap">
+              <div class="slide-text-box">
+                <h2 class="slide-heading" data-i18n="hero2_title">Delivered to your doorstep</h2>
+                <span class="slide-accent-line" aria-hidden="true"></span>
+                <p class="slide-description" data-i18n="hero2_desc">Letters and parcels handled with utmost care and island-wide speed.</p>
+                <div class="slide-buttons-group">
+                  <a href="services.html#normal-post" class="btn-primary" data-i18n="hero2_btn_domestic">Domestic mail</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Slide 3 (Lazy Loaded) -->
+        <article class="slide-item" aria-hidden="true">
+          <img src="images/Service/Main_hero3.jfif" alt="Community members outside a neighborhood post office reflecting island-wide reach" class="slide-bg-img" width="2752" height="1536" loading="lazy">
+          <div class="slide-overlay">
+            <div class="container slide-content-wrap">
+              <div class="slide-text-box">
+                <h2 class="slide-heading" data-i18n="hero3_title">Reaching every village</h2>
+                <span class="slide-accent-line" aria-hidden="true"></span>
+                <p class="slide-description" data-i18n="hero3_desc">A computerized post office within reach of every community across all 9 provinces.</p>
+                <div class="slide-buttons-group">
+                  <a href="coming-soon.html#locations" class="btn-primary" data-i18n="hero3_btn_find">Find a post office</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Prev / Next Slider Arrows -->
+      <button type="button" class="slider-arrow-btn slider-arrow-prev" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <button type="button" class="slider-arrow-btn slider-arrow-next" aria-label="Next slide">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+      </button>
+
+      <!-- Pagination Dots -->
+      <div class="slider-dots-list" role="tablist" aria-label="Slide navigation">
+        <button type="button" class="slider-dot-btn active" role="tab" aria-selected="true" aria-label="Slide 1" aria-current="step"></button>
+        <button type="button" class="slider-dot-btn" role="tab" aria-selected="false" aria-label="Slide 2"></button>
+        <button type="button" class="slider-dot-btn" role="tab" aria-selected="false" aria-label="Slide 3"></button>
+      </div>
+    </section>
+
+    <!-- 4. CORE SERVICES SECTION (15 Responsive Glassmorphism Cards) -->
+    <section class="services-section" aria-labelledby="core-services-heading">
+      <!-- Ambient Glow shapes for glassmorphism backdrop blur -->
+      <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+      <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="section-header-wrap">
+          <h2 id="core-services-heading" class="section-title" data-i18n="section_core_services">Our core services</h2>
+          <p class="section-subtitle" data-i18n="section_core_services_sub">Reliable, accessible postal, financial and administrative services across Sri Lanka.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Normal Post (Domestic Mail) -->
+          <a href="services.html#normal-post" class="service-card" aria-label="Learn more about Normal Post (Domestic Mail)">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_normal_post.jpg" alt="Normal Post (Domestic Mail)" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv1_title">Normal Post (Domestic Mail)</h3>
+              <p class="card-desc" data-i18n="srv1_desc">Affordable letter and small package delivery reaching every street and village across the island.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 2: International Post -->
+          <a href="services.html#international-post" class="service-card" aria-label="Learn more about International Post">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_international.jpg" alt="International Post" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv2_title">International Post</h3>
+              <p class="card-desc" data-i18n="srv2_desc">Air and surface postal delivery linking Sri Lankan citizens and businesses to overseas destinations worldwide.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 3: Money Transfer -->
+          <a href="services.html#money-transfer" class="service-card" aria-label="Learn more about Money Transfer">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_money_transfer.jpg" alt="Money Transfer" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv3_title">Money Transfer</h3>
+              <p class="card-desc" data-i18n="srv3_desc">Safe, rapid electronic and ordinary money order transfers redeemable at any post office counter.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 4: EMS Speed Post -->
+          <a href="services.html#ems-speed-post" class="service-card" aria-label="Learn more about EMS Speed Post">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_speed_post.jpg" alt="EMS Speed Post" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv4_title">EMS Speed Post</h3>
+              <p class="card-desc" data-i18n="srv4_desc">Premium, priority express courier delivery with guaranteed transit times and online barcode tracking.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 5: Cash on Delivery (COD) -->
+          <a href="services.html#cash-on-delivery" class="service-card" aria-label="Learn more about Cash on Delivery">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_cash_on_deilvery.jpg" alt="Cash on Delivery" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv5_title">Cash on Delivery (COD)</h3>
+              <p class="card-desc" data-i18n="srv5_desc">Seamless fulfillment for e-commerce vendors with recipient payment collection right at their doorstep.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 6: SL Post Courier -->
+          <a href="services.html#sl-post-courier" class="service-card" aria-label="Learn more about SL Post Courier">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_sl_post_corrier.jpg" alt="SL Post Courier" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv6_title">SL Post Courier</h3>
+              <p class="card-desc" data-i18n="srv6_desc">Dedicated parcel courier network designed for rapid corporate packages and personal logistics.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 7: Bill Payments -->
+          <a href="services.html#bill-payments" class="service-card" aria-label="Learn more about Bill Payments">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services__bill_payments.jpg" alt="Bill Payments" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv7_title">Bill Payments</h3>
+              <p class="card-desc" data-i18n="srv7_desc">One-stop counter for settling electricity, water, telecom, and municipal utility bills conveniently.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 8: ETF/EPF Payments -->
+          <a href="services.html#etf-epf-payments" class="service-card" aria-label="Learn more about ETF/EPF Payments">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_EPF_etfPayments.jpg" alt="ETF/EPF Payments" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv8_title">ETF / EPF Payments</h3>
+              <p class="card-desc" data-i18n="srv8_desc">Authorized processing and acceptance of statutory retirement and provident fund contributions.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 9: Exam Fee Payments -->
+          <a href="services.html#exam-fee-payments" class="service-card" aria-label="Learn more about Exam Fee Payments">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_exam_fee_payment.jpg" alt="Exam Fee Payments" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv9_title">Exam Fee Payments</h3>
+              <p class="card-desc" data-i18n="srv9_desc">Hassle-free fee payments for Department of Examinations and civil service selection tests.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 10: Social Services -->
+          <a href="services.html#social-services" class="service-card" aria-label="Learn more about Social Services">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_socail_services.jpg" alt="Social Services" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv10_title">Social Services</h3>
+              <p class="card-desc" data-i18n="srv10_desc">Disbursement of government elder allowances, disability benefits, and community welfare payments.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 11: Bank Services -->
+          <a href="services.html#bank-services" class="service-card" aria-label="Learn more about Bank Services">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_bank_services.jpg" alt="Bank Services" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv11_title">Bank Services</h3>
+              <p class="card-desc" data-i18n="srv11_desc">Agency banking facilities including National Savings Bank (NSB) transactions at selected postal counters.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 12: e-Telemail -->
+          <a href="services.html#e-telemail" class="service-card" aria-label="Learn more about e-Telemail">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_e_telemail.jpg" alt="e-Telemail" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv12_title">e-Telemail</h3>
+              <p class="card-desc" data-i18n="srv12_desc">Swift electronic message dispatch converted into physical printed letters for immediate recipient delivery.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 13: Pila Pila Tele Products -->
+          <a href="services.html#pila-pila-tele-products" class="service-card" aria-label="Learn more about Pila Pila Tele Products">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_tele_products.jpg" alt="Pila Pila Tele Products" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv13_title">Pila Pila Tele Products</h3>
+              <p class="card-desc" data-i18n="srv13_desc">Value-added telecommunication accessories and consumer electronics available at postal retail outlets.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 14: Postal Insurance -->
+          <a href="services.html#postal-insurance" class="service-card" aria-label="Learn more about Postal Insurance">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_postal_insurance.jpg" alt="Postal Insurance" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv14_title">Postal Insurance</h3>
+              <p class="card-desc" data-i18n="srv14_desc">Comprehensive postal transit insurance protecting your valuable registered parcels against loss or damage.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Card 15: Vehicle Traffic Fines -->
+          <a href="services.html#vehicle-traffic-fines" class="service-card" aria-label="Learn more about Vehicle Traffic Fines">
+            <div class="card-media-wrap">
+              <img src="images/Service/Updated_services_vehicle_traffic_fines.jpg" alt="Vehicle Traffic Fines" class="card-img" width="1024" height="1024" loading="lazy">
+            </div>
+            <div class="card-body">
+              <h3 class="card-title" data-i18n="srv15_title">Vehicle Traffic Fines</h3>
+              <p class="card-desc" data-i18n="srv15_desc">Direct payment of Sri Lanka Police spot fines and traffic penalties at any computerized postal counter.</p>
+              <span class="card-cta-link">
+                <span data-i18n="card_cta">Learn more</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-8.29-1.42 1.42 5.43 5.43H5v2z"/></svg>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 5. FOOTER -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Left Block: Brand, Tagline, Address -->
+        <div class="footer-brand-col">
+          <div class="footer-logo-plate">
+            <img src="images/post_logo.png" alt="Sri Lanka Post Logo" class="footer-logo-img" width="993" height="516" loading="lazy">
+          </div>
+          <!-- PLACEHOLDER: replace with the official tagline -->
+          <p class="footer-tagline" data-i18n="footer_tagline">Connecting every Sri Lankan, every day.</p>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+              <span data-i18n="footer_address">No. 310, D.R. Wijewardena Mawatha, Colombo 01000, Sri Lanka</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <a href="tel:1950" data-i18n="footer_hotline">Hotline: 1950</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <a href="mailto:info@slpost.lk" data-i18n="footer_email">info@slpost.lk</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Block: Nav Columns -->
+        <div class="footer-links-grid">
+          <div>
+            <h4 class="footer-col-title" data-i18n="footer_col_about">About Us</h4>
+            <ul class="footer-link-list">
+              <li><a href="about.html#vision-mission" class="footer-link" data-i18n="nav_about_vision">Vision and Mission</a></li>
+              <li><a href="about.html#insights" class="footer-link" data-i18n="nav_about_insights">Our Insights</a></li>
+              <li><a href="about.html#major-functions" class="footer-link" data-i18n="nav_about_functions">Major Functions</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-col-title" data-i18n="footer_col_services">Services</h4>
+            <ul class="footer-link-list">
+              <li><a href="services.html#normal-post" class="footer-link" data-i18n="group_send_receive">Send and receive</a></li>
+              <li><a href="services.html#bill-payments" class="footer-link" data-i18n="group_pay">Pay</a></li>
+              <li><a href="services.html#money-transfer" class="footer-link" data-i18n="group_money_protect">Money and protection</a></li>
+              <li><a href="services.html#e-telemail" class="footer-link" data-i18n="group_messages_products">Messages and products</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="footer-col-title" data-i18n="footer_col_info">Information</h4>
+            <ul class="footer-link-list">
+              <li><a href="information.html#rates" class="footer-link" data-i18n="footer_postal_rates">Rates & Tariffs</a></li>
+              <li><a href="information.html#postal-codes" class="footer-link" data-i18n="footer_postal_codes">Postal Codes</a></li>
+              <li><a href="coming-soon.html#tracking" class="footer-link" data-i18n="footer_track">Track & Trace</a></li>
+              <li><a href="coming-soon.html#faqs" class="footer-link" data-i18n="footer_faq">FAQs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Media Bar (Real Official Brand SVG Icons) -->
+      <div class="footer-social-row">
+        <span class="footer-social-label" data-i18n="footer_social_label">Official Social Channels:</span>
+        <div class="social-links-list">
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-link-btn" aria-label="Visit Sri Lanka Post on LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Strip -->
+      <div class="footer-bottom-strip">
+        <p>&copy; <span id="current-year">2026</span> <span data-i18n="footer_copyright">Department of Posts, Sri Lanka. All Rights Reserved.</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 7. CHATBOT & 8. HOTLINE FLOATING BUTTONS & PANELS -->
+  <div class="floating-tools-stack">
+    <!-- Hotline Popover Menu -->
+    <div class="hotline-menu-popover" id="hotline-popover" role="dialog" aria-hidden="true" aria-label="Quick contact menu">
+      <div class="hotline-menu-title" data-i18n="hotline_menu_title">Quick Contact Options</div>
+      <a href="tel:1950" class="hotline-menu-item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <span data-i18n="hotline_call_btn">Call hotline 1950</span>
+      </a>
+      <a href="https://wa.me/94112328301" class="hotline-menu-item" id="hotline-wa-link" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.71 4.3 3.8.6.26 1.07.41 1.44.53.6.19 1.15.16 1.58.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/></svg>
+        <span data-i18n="hotline_wa_btn">Get alerts on WhatsApp</span>
+      </a>
+    </div>
+
+    <!-- Hotline Toggle Button -->
+    <button type="button" class="floating-action-btn hotline-btn" id="hotline-toggle-btn" aria-label="Open quick contact menu" aria-expanded="false" aria-controls="hotline-popover" title="Call hotline or WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+    </button>
+
+    <!-- Chatbot Dialog Panel -->
+    <section class="chatbot-panel-dialog" id="chatbot-panel" role="dialog" aria-hidden="true" aria-labelledby="chat-heading">
+      <div class="chatbot-header">
+        <div class="chatbot-title-box">
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <svg class="ai-sparkle-icon-inline" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/></svg>
+            <h3 id="chat-heading" class="chatbot-title" data-i18n="chat_title">Ask Sri Lanka Post</h3>
+          </div>
+          <span class="chatbot-badge" data-i18n="chat_badge">AI Assistant</span>
+        </div>
+        <button type="button" class="chatbot-close-btn" id="chatbot-close-btn" aria-label="Close AI assistant">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </div>
+
+      <div class="chatbot-body" id="chatbot-messages" role="log" aria-live="polite">
+        <!-- Initial Welcome Message Bubble -->
+        <div class="chat-bubble bubble-bot" data-i18n="chat_welcome">
+          Hello! Welcome to the Sri Lanka Post assistant. How can I help you today?
+        </div>
+
+        <!-- 5 FAQ Quick Questions Buttons -->
+        <div class="chatbot-quick-replies" role="group" aria-label="Suggested questions">
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q1" data-answer-key="chat_a1" data-i18n="chat_q1">How do I track an item?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q2" data-answer-key="chat_a2" data-i18n="chat_q2">How can I contact you?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q3" data-answer-key="chat_a3" data-i18n="chat_q3">Which payments can I make at a post office?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q4" data-answer-key="chat_a4" data-i18n="chat_q4">How do I send a parcel abroad?</button>
+          <button type="button" class="faq-quick-btn" data-question-key="chat_q5" data-answer-key="chat_a5" data-i18n="chat_q5">Where is my nearest post office?</button>
+        </div>
+      </div>
+
+      <div class="chatbot-footer" data-i18n="chat_footer_note">
+        University assignment prototype demo assistant.
+      </div>
+    </section>
+
+    <!-- AI Assistant Toggle Button -->
+    <button type="button" class="floating-action-btn ai-assistant-btn" id="chatbot-toggle-btn" aria-label="Open Sri Lanka Post AI Assistant" aria-expanded="false" aria-controls="chatbot-panel" title="Ask Sri Lanka Post AI Assistant">
+      <svg class="ai-sparkle-svg" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M19 9l1.25-2.75L23 5l-2.75-1.25L19 1l-1.25 2.75L15 5l2.75 1.25L19 9zm-7.5.5L9 4 6.5 9.5 1 12l5.5 2.5L9 20l2.5-5.5L17 12l-5.5-2.5zM19 15l-1.25 2.75L15 19l2.75 1.25L19 23l1.25-2.75L23 19l-2.75-1.25L19 15z"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-notice" id="notif-toast" role="status" aria-live="polite"></div>
+
+  <!-- JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
